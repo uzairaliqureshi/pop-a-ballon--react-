@@ -12,7 +12,7 @@ const countSlice = createSlice({
             state.fuelWidth && (state.fuelWidth -= 12);
         },
         reset(state) {
-            state.ballonCount = 4;
+            state.ballonCount = 5;
             state.fuelWidth = 36;
             state.color = randomColor();
         }
